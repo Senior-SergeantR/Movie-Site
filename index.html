@@ -26,10 +26,10 @@
             <img src="./images/" width="140" height="32">
         </a>
 
-        <div class="search-box" search-box>
+        <div class="search-box active" search-box>
             <div class="search-wrapper" search-wrapper>
                 <input type="text" name="search" aria-label="search movies"
-                placeholder="Search any movies..." class="search-field" search-field>
+                placeholder="Search any movies..." autocomplete="off" class="search-field" search-field>
                  
                 <img src="./images/search" alt="search icon" width="24" height="24"
                 class="leading-icon">
@@ -40,9 +40,14 @@
             </button>
         </div>
 
-        <div class="search-btn" search-toggler menu-close>
+        <button class="search-btn" search-toggler menu-close>
             <img src="./images/" width="24" height="24">
-        </div>
+        </button>
+
+        <button class="menu-btn" menu-toggler>
+            <img src="images/" width="24" height="24" class="menu" alt="">
+            <img src="images/" width="24" height="24" class="close" alt="">
+        </button>
 
 
 
